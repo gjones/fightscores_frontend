@@ -1,0 +1,30 @@
+@import '../../assets/styles/variables.scss';
+
+.header {
+  display: grid;
+  grid-template-columns: 8rem auto;
+  align-items: center;
+  justify-items: end;
+  background: $header-background;
+  box-shadow: 0 1px 1rem rgba(0,0,0, 0.2);
+
+  .logo {
+    padding: 1rem;
+    justify-self: start;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: 10rem 8rem 8rem;
+    justify-self: end;
+    justify-items: end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    li {
+      list-style: none;
+      margin: 0 auto;
+    }
+  }
+
+}

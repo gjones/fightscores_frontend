@@ -1,0 +1,19 @@
+@import '../../../assets/styles/variables.scss';
+
+.navigation-button {
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  color: $text-main;
+  text-align: center;
+  font-size: $reduced;
+  svg {
+    margin: 0 auto;
+    display: block
+  }
+  &:hover {
+    background: darken($header-background, 2%);
+    cursor: pointer;
+  }
+}

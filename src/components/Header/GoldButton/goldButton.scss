@@ -1,0 +1,14 @@
+@import '../../../assets/styles/variables.scss';
+
+.button {
+  &.gold {
+    font-size: $regular;
+    color: $text-main;
+    background: $primary-action;
+    border: 0;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    float: left;
+  }
+}

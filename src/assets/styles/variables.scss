@@ -1,0 +1,21 @@
+// colours
+$day: rgb(255,255,255);
+$night: rgb(0,0,0);
+$dusk: rgb(64,64,64);
+$dawn: rgb(54,54,54);
+$sunrise: rgb(169,139,100);
+$overcast: rgb(155,155,155);
+
+// usage
+$text-main: $day;
+$text-muted: $overcast;
+$background: $dawn;
+$header-background: $dusk; 
+$primary-action: $sunrise;
+
+// text sizes
+$massive: 2.25rem; // 36px
+$pretty-big: 1.5rem; // 24px
+$regular: 1rem; // 16px
+$reduced: 0.875rem; // 14px
+
